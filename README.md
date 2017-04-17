@@ -1,7 +1,6 @@
-# QUIC clients
+# QUIC server and clients binaries
 
-This repo has binary builds of `quic_client` from Chromium's source for testing
-[quic-go](https://github.com/lucas-clemente/quic-go).
+This repo has binary builds of `quic_client` and `quic_server` from Chromium's source for testing [quic-go](https://github.com/lucas-clemente/quic-go).
 
 ## How to build
 
@@ -21,10 +20,10 @@ and enter the following:
 
 Build:
 ```sh
-ninja -C out/Debug quic_client
+ninja -C out/Debug quic_client quic_server
 ```
 
 Strip the binary:
 ```sh
-strip out/Debug/quic_client
+strip out/Debug/quic_client out/Debug/quic_server
 ```
