@@ -27,3 +27,8 @@ Strip the binary:
 ```sh
 strip out/Debug/quic_client out/Debug/quic_server
 ```
+
+## License
+
+This repo contains build artifacts from Chromium, so the same license applies.
+
